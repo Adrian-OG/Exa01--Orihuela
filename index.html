@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+    <div id="fondoblanco">
+    <header>
+     <section id ="logo">
+         <img src="recursos/logoexa.png" alt="">
+     </section>
+     <section id="banner"> Sistema de Ventas - Exa01
+        <hr  color="blue">
+    </section> 
+    </header>
+    <nav>
+    <li> <a href="#" id="inicio" onclick="inicio();">Inicio</a> </li>
+    <li>  <a href="#" id="venta" onclick="ventas();"> Ventas </a>  </li>
+    <li> <a href="#" id="clientes" onclick="clientes();">Clientes</a></li>
+    <li> <a href="#" id="productos" onclick="productos();"> Productos</a></li>
+    
+    </nav>
+    <main>
+   <section id="bienv">
+       <label id="bienvenidos" >Bienvenidos al Sistema de Ventas</label>
+    </section>
+
+   <section  id="ventas" style="display:none">
+    <table  border="1">
+        <h3>Venta: </h3>
+        <label > Cliente: </label> <br>
+        <input type="text" id="clientecaja"> <br> <br>
+        <label >Impuesto: </label> <br>
+        <input type="number" id="impuestocaja"> <br> <br>     
+        <button id="botbuscar">Buscar Artículos</button> <br> <br>
+
+        <tr>
+            <th>Artículo</th>
+            <th>Código</th>
+            <th>Serie</th>
+            <th>Stock</th>
+            <th>P.Venta</th>
+            <th>Cantidad</th>
+            <th>Descuento</th>
+            <th>Eliminar</th>
+            
+        </tr>
+        <tr>
+            <th>Laptop ASUS</th>
+            <th>00123</th>
+            <th>gx12502</th>
+            <th>12</th>
+            <th>3200.00</th>
+            <th>1</th>
+            <th>0.0</th>
+            <th >   </th>
+        </tr>
+        <tr>
+            <th>Mouse Halion</th>
+            <th>00456</th>
+            <th>th431</th>
+            <th>13</th>
+            <th>45.00</th>
+            <th>2</th>
+            <th>0.0</th>
+            <th> </th>
+            
+        </tr>
+    </table>
+
+   </section>
+
+<section id="clientes" style="display:none"></section>
+
+   <section id="productos" style="display:none"></section>
+</div>
+    </main>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>

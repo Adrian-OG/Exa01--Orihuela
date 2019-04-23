@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0   ;
+    
+}
+
+   
+
+body{
+    margin: auto;
+    width:  1000px;
+    height: 800px; 
+    background-size: cover;
+    background-image: url(recursos/car.jpg);
+    
+}
+header{
+    width: 1000px;
+    height: 200px;
+}
+nav{
+    float: left;
+    background: cornflowerblue;
+    width: 1000px;
+    height:50px;
+}
+nav li{
+    list-style: none;
+    color: white;
+}
+nav li a{
+    text-decoration: none;
+    float: left;
+    color: white;
+    padding: 1em 1em 1em 1em;
+}
+nav li a:hover{
+    transition: .3s all ease;
+    text-decoration: none;
+    float: left;
+    background-color: rgb(31, 235, 167);
+    color: white;
+    padding: 1em 1em 1em 1em;
+}
+#inicio{
+    float: left;
+    margin-left: 10px;
+}
+
+#venta{
+    float: left;
+    margin-left: 160px;
+}
+#clientes{
+    float: left;
+    margin-left: 160px;
+}
+#productos{
+    float: left;
+    margin-left: 160px;
+}
+
+#logo img{
+    width: 200px;
+    height: 200px;
+   float: left; 
+   display: block;
+}
+section#banner{
+    width: 800px;
+    height: 200px;
+    float: left;
+    
+    
+}
+
+
+@font-face{
+    font-family: fuentes;
+    src: url(recursos/GreatVibes-Regular.ttf)
+}
+@font-face{
+    font-family: fuentes;
+    src: url(recursos/BadScript-Regular.ttf);
+}
+
+  
+#banner{
+    float: left;
+   
+    margin-top: 40px;
+    font-family: fuentes;
+    font-size: 30px;
+    color: blue;
+}
+#fondoblanco{
+    background: white;
+    margin: auto;
+    width:  1000px;
+    height: 800px; 
+    margin-top: 12px;
+
+}
+#bienv{
+    padding: 20px;
+}
+#ventas{
+    padding:20px;
+}
+
+@font-face{
+    font-family: fuente_incio;
+    src: url(recursos/Oswald-Bold.ttf);
+
+}
+@font-face{
+    font-family: fuente_inicio;
+    src: url(recursos/BadScript-Regular.ttf);
+}
+#bienvenidos{
+    font-family: fuente_inicio;
+    float: left;
+    font-size: 70px;
+    color: red;
+    margin-top: 190px;
+}
